@@ -3,4 +3,4 @@ http.createServer(function (req, res) {
     console.log(`Just got a request at ${req.url}!`)
     res.write(JSON.stringify(process.env));
     res.end();
-}).listen(8800);
+}).listen(3003);
